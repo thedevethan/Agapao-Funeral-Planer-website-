@@ -1,0 +1,69 @@
+nav {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+  padding: 6.5vh 2vw;
+  box-shadow: 0vh 0.25vh 1.25vh rgba(0, 0, 0, 0.1);
+}
+nav .nav-link ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2vw;
+}
+nav .nav-link ul li a {
+  text-decoration: none;
+  position: relative;
+  color: #5A7F54;
+}
+nav .nav-link ul li a::before {
+  content: "";
+  position: absolute;
+  top: -3vh;
+  height: 0.5vh; /* Hauteur de la barre */
+  background-color: rgba(90, 127, 84, 0.5098039216); /* Couleur de la barre */
+  width: 100%;
+  visibility: hidden;
+  transition: 0.2s;
+}
+nav .nav-link ul li a:hover::before {
+  background-color: #5A7F54;
+  top: -2vh;
+  visibility: visible;
+  transition: 0.5s;
+}
+nav .nav-link ul li .contact {
+  padding: 2vh 2.5vw;
+  border-radius: 0 5vw 5vw 5vw;
+  color: white;
+  background-color: #5A7F54;
+  border: none;
+}
+nav .nav-link ul li .contact:hover {
+  background-color: #51714c;
+}
+nav .nav-link ul li .contact::before {
+  display: none;
+}
+
+.nav-link ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 2px; /* Hauteur de la barre */
+  background-color: blue; /* Couleur de la barre */
+  transition: width 0.3s ease;
+}
+
+body {
+  margin: 0;
+  background-color: #F1EFF0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
