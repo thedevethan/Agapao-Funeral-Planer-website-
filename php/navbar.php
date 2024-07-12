@@ -109,7 +109,7 @@
                 nav_scroll("1vh 3vw", "3vh 3vw", "10vw", "14vw");
                 hamburger();
 
-            } else if (601 <= windowWidth <= 1024) {
+            } else if (windowWidth >= 601 && windowWidth <= 1024) {
                 // Animation pour tablettes
                 nav_scroll("0.3vh 3vw", "0.5vh 3vw", "7vw", "10vw");
                 hamburger();
