@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*  Style de la navbar */
 .navbar {
   position: sticky;
   top: 0;
@@ -67,6 +68,7 @@ nav .nav-link ul li .contact::before {
   display: none;
 }
 
+/*  Style de la navbar */
 body {
   margin: 0;
   background-color: #F1EFF0;
@@ -111,19 +113,50 @@ body {
   }
   .nav-link-mobile ul li a {
     text-decoration: none;
-    position: relative;
     color: #5A7F54;
     font-size: 4vw;
   }
   /* Style de la navbar */
 }
 /* Petites tablettes (601px à 768px) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
   /* Styles pour petites tablettes */
-}
-/* Grandes tablettes (769px à 1024px) */
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  /* Styles pour grandes tablettes */
+  /* Style de la navbar */
+  nav {
+    padding: 0.5vh 3vw;
+    box-shadow: 0vh 0.25vh 1.25vh rgba(0, 0, 0, 0.05);
+    margin-bottom: 1vh;
+  }
+  nav .logo {
+    height: 10vw;
+  }
+  nav .hamburger {
+    display: block;
+    height: 4vw;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  nav .nav-link {
+    display: none;
+  }
+  .nav-link-mobile {
+    background-color: rgb(255, 255, 255);
+    padding: 2vh 0;
+  }
+  .nav-link-mobile ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    gap: 2vw;
+  }
+  .nav-link-mobile ul li a {
+    text-decoration: none;
+    color: #5A7F54;
+    font-size: 2vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,12 +32,16 @@
         </ul>
     </div>
 
-    
+
 </div>
 <p>AHHHHHHHHHHHHHHHH</p>
 
 <script>
     $(document).ready(function() {
+
+        $(window).resize(function() {
+            location.reload();
+        });
 
         function nav_scroll(padding_end, padding_start, logo_height_end, logo_height_start) {
 
@@ -80,6 +84,21 @@
 
         }
 
+        // Fonction pour afficher le menu
+
+        function hamburger() {
+            $(".hamburger").click(function() {
+
+                if ($(".nav-link-mobile").is(':visible')) {
+                    this.setAttribute('src', 'image/menu.png')
+                    $(".nav-link-mobile").slideToggle()
+                } else {
+                    this.setAttribute('src', 'image/close.png')
+                    $(".nav-link-mobile").slideToggle()
+                };
+            });
+        };
+
         // Fonction pour gérer les animations en fonction de la largeur de la fenêtre
         function handleAnimations() {
 
@@ -88,22 +107,13 @@
             if (windowWidth <= 600) {
                 // Animation pour téléphones
                 nav_scroll("1vh 3vw", "3vh 3vw", "10vw", "14vw");
+                hamburger();
 
-                $(".hamburger").click(function(){
-
-                    if ($(".nav-link-mobile").is(':visible')) {
-                        this.setAttribute('src','image/menu.png')
-                        $(".nav-link-mobile").slideToggle()
-                    }
-                    else {
-                        this.setAttribute('src','image/close.png')
-                        $(".nav-link-mobile").slideToggle()
-                    };
-                });
-
-            } else if (windowWidth <= 1024) {
+            } else if (601 <= windowWidth <= 1024) {
                 // Animation pour tablettes
-                targetElement.fadeToggle();
+                nav_scroll("0.3vh 3vw", "0.5vh 3vw", "7vw", "10vw");
+                hamburger();
+
             } else {
                 // Animation pour grands écrans (ne pas appliquer d'animation)
                 nav_scroll("0.3vh 2vw", "0.5vh 2vw", "5vw", "6.5vw")
