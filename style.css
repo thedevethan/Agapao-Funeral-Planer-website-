@@ -1,12 +1,15 @@
 @charset "UTF-8";
+.navbar {
+  position: sticky;
+  top: 0;
+}
+
 nav {
   display: flex;
   background-color: rgb(255, 255, 255);
   justify-content: space-between;
   padding: 0.5vh 2vw;
   box-shadow: 0vh 0.25vh 1.25vh rgba(0, 0, 0, 0.1);
-  position: sticky;
-  top: 0;
 }
 nav .logo {
   height: 6.5vw;
@@ -67,7 +70,9 @@ nav .nav-link ul li .contact::before {
 body {
   margin: 0;
   background-color: #F1EFF0;
-  font-family: "Marcellus";
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Téléphones (jusqu'à 600px) */
@@ -77,6 +82,7 @@ body {
   nav {
     padding: 3vh 3vw;
     box-shadow: 0vh 0.25vh 1.25vh rgba(0, 0, 0, 0.05);
+    margin-bottom: 1vh;
   }
   nav .logo {
     height: 14vw;
@@ -89,6 +95,25 @@ body {
   }
   nav .nav-link {
     display: none;
+  }
+  .nav-link-mobile {
+    background-color: rgb(255, 255, 255);
+    padding: 2vh 0;
+  }
+  .nav-link-mobile ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    gap: 4vw;
+  }
+  .nav-link-mobile ul li a {
+    text-decoration: none;
+    position: relative;
+    color: #5A7F54;
+    font-size: 4vw;
   }
   /* Style de la navbar */
 }
