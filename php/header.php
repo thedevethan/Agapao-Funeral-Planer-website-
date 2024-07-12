@@ -1,6 +1,6 @@
 <?php
 
-function hd($style)
+function hd($style, $icon)
 {
 ?>
     <!DOCTYPE html>
@@ -15,7 +15,7 @@ function hd($style)
 
         <!--Style-->
         <link rel="stylesheet" <?php echo $style; ?>>
-        <link rel="icon" href="image/Agapao - logo.png">
+        <link rel="icon" href="<?php echo $icon; ?>">
 
         <!--Font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">

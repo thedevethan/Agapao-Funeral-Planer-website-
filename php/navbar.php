@@ -1,134 +1,134 @@
-<div class="navbar">
-    <nav>
-        <img src="image/Agapao - logo.png" alt="logo" class="logo">
+<?php
+// Définir une fonction pour générer la barre de navigation
+function generateNavbar($home, $services, $about, $blog, $contact, $logo) {
+    // Commencer à insérer du HTML
+    ?>
+    <div class="navbar">
+        <nav>
+            <img src="<?php echo $logo; ?>" alt="logo" class="logo">
 
-        <script>
-            $(document).ready(function() {
-                $(".logo").click(function() {
-                    window.location = "index.php";
+            <!-- Script pour rediriger vers la page d'accueil quand on clique sur le logo -->
+            <script>
+                $(document).ready(function() {
+                    $(".logo").click(function() {
+                        window.location = "<?php echo $home; ?>";
+                    });
                 });
-            });
-        </script>
+            </script>
 
+            <div class="nav-link">
+                <ul>
+                    <!-- Générer les liens de navigation avec les paramètres passés à la fonction -->
+                    <li><a href="<?php echo $services; ?>">Prestations & services</a></li>
+                    <li><a href="<?php echo $about; ?>">À propos d’Agapao-Funeral</a></li>
+                    <li><a href="<?php echo $blog; ?>">Blog</a></li>
+                    <li><a class="contact" href="<?php echo $contact; ?>">Contact</a></li>
+                </ul>
+            </div>
 
-        <div class="nav-link">
+            <img src="image/menu.png" alt="menu" class="hamburger">
+        </nav>
+
+        <div class="nav-link-mobile">
             <ul>
-                <li><a href="#">Prestations & services</a></li>
-                <li><a href="#">À propos d’Agapao-Funeral</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a class="contact" href="#">Contact</a></li>
+                <!-- Générer les liens de navigation mobile avec les mêmes paramètres -->
+                <li><a href="<?php echo $services; ?>">Prestations & services</a></li>
+                <li><a href="<?php echo $about; ?>">À propos d’Agapao-Funeral</a></li>
+                <li><a href="<?php echo $blog; ?>">Blog</a></li>
+                <li><a class="contact" href="<?php echo $contact; ?>">Contact</a></li>
             </ul>
         </div>
-
-        <img src="image/menu.png" alt="menu" class="hamburger">
-    </nav>
-
-    <div class="nav-link-mobile">
-        <ul>
-            <li><a href="#">Prestations & services</a></li>
-            <li><a href="#">À propos d’Agapao-Funeral</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a class="contact" href="#">Contact</a></li>
-        </ul>
     </div>
 
+    <!-- Script pour gérer les animations de la barre de navigation -->
+    <script>
+        $(document).ready(function() {
 
-</div>
-<p>AHHHHHHHHHHHHHHHH</p>
+            // Recharger la page lors du redimensionnement de la fenêtre
+            $(window).resize(function() {
+                location.reload();
+            });
 
-<script>
-    $(document).ready(function() {
+            // Fonction pour gérer le style de la barre de navigation au scroll
+            function nav_scroll(padding_end, padding_start, logo_height_end, logo_height_start) {
 
-        $(window).resize(function() {
-            location.reload();
-        });
+                $(window).scroll(function() {
 
-        function nav_scroll(padding_end, padding_start, logo_height_end, logo_height_start) {
+                    var scroll = $(window).scrollTop();
 
-            $(window).scroll(function() {
+                    if (scroll > 0) {
+                        $(".logo").css({
+                            "transition": "0.3s",
+                            "height": logo_height_end,
+                        });
 
-                var scroll = $(window).scrollTop();
+                        $(".nav-link-mobile").css({
+                            "background-color": "rgba(255, 255, 255, 0.721)",
+                        });
 
-                if (scroll > 0) {
-                    $(".logo").css({
-                        "transition": "0.3s",
-                        "height": logo_height_end,
-                    });
+                        $("nav").css({
+                            "background-color": "rgba(255, 255, 255, 0.721)",
+                            "transition": "0.3s",
+                            "padding": padding_end
+                        });
+                    } else {
+                        $("nav").css({
+                            "background-color": "rgb(255, 255, 255)",
+                            "transition": "0.3s",
+                            "padding": padding_start
+                        });
 
-                    $(".nav-link-mobile").css({
-                        "background-color": "rgba(255, 255, 255, 0.721)",
-                    })
+                        $(".nav-link-mobile").css({
+                            "background-color": "rgb(255, 255, 255)",
+                        });
 
-                    $("nav").css({
-                        "background-color": "rgba(255, 255, 255, 0.721)",
-                        "transition": "0.3s",
-                        "padding": padding_end
-                    });
+                        $(".logo").css({
+                            "transition": "0.3s",
+                            "height": logo_height_start,
+                        });
+                    }
+                });
+            }
+
+            // Fonction pour gérer l'affichage du menu mobile
+            function hamburger() {
+                $(".hamburger").click(function() {
+                    if ($(".nav-link-mobile").is(":visible")) {
+                        this.setAttribute("src", "image/menu.png");
+                        $(".nav-link-mobile").slideToggle();
+                    } else {
+                        this.setAttribute("src", "image/close.png");
+                        $(".nav-link-mobile").slideToggle();
+                    }
+                });
+            }
+
+            // Fonction pour gérer les animations en fonction de la largeur de la fenêtre
+            function handleAnimations() {
+                var windowWidth = $(window).width();
+
+                if (windowWidth <= 600) {
+                    nav_scroll("1vh 3vw", "3vh 3vw", "10vw", "14vw");
+                    hamburger();
+
+                } else if (windowWidth >= 601 && windowWidth <= 1024) {
+                    nav_scroll("0.3vh 3vw", "0.5vh 3vw", "7vw", "10vw");
+                    hamburger();
+
                 } else {
-                    $("nav").css({
-                        "background-color": "rgb(255, 255, 255)",
-                        "transition": "0.3s",
-                        "padding": padding_start
-                    });
-
-                    $(".nav-link-mobile").css({
-                        "background-color": "rgb(255, 255, 255)",
-                    })
-
-                    $(".logo").css({
-                        "transition": "0.3s",
-                        "height": logo_height_start,
-                    });
+                    nav_scroll("0.3vh 2vw", "0.5vh 2vw", "5vw", "6.5vw");
                 }
+            }
+
+            // Appliquer les animations lors du clic sur le bouton
+            $("#toggleButton").click(function() {
+                handleAnimations();
             });
 
-        }
-
-        // Fonction pour afficher le menu
-
-        function hamburger() {
-            $(".hamburger").click(function() {
-
-                if ($(".nav-link-mobile").is(':visible')) {
-                    this.setAttribute('src', 'image/menu.png')
-                    $(".nav-link-mobile").slideToggle()
-                } else {
-                    this.setAttribute('src', 'image/close.png')
-                    $(".nav-link-mobile").slideToggle()
-                };
-            });
-        };
-
-        // Fonction pour gérer les animations en fonction de la largeur de la fenêtre
-        function handleAnimations() {
-
-            var windowWidth = $(window).width();
-
-            if (windowWidth <= 600) {
-                // Animation pour téléphones
-                nav_scroll("1vh 3vw", "3vh 3vw", "10vw", "14vw");
-                hamburger();
-
-            } else if (windowWidth >= 601 && windowWidth <= 1024) {
-                // Animation pour tablettes
-                nav_scroll("0.3vh 3vw", "0.5vh 3vw", "7vw", "10vw");
-                hamburger();
-
-            } else {
-                // Animation pour grands écrans (ne pas appliquer d'animation)
-                nav_scroll("0.3vh 2vw", "0.5vh 2vw", "5vw", "6.5vw")
-            };
-        }
-
-        // Événement au clic sur le bouton
-        $("#toggleButton").click(function() {
+            // Appliquer les animations appropriées lors du chargement de la page
             handleAnimations();
         });
-
-        // Événement de défilement pour la barre de navigation
-
-
-        // Appliquer les animations appropriées lors du chargement de la page
-        handleAnimations();
-    });
-</script>
+    </script>
+    <?php
+}
+?>

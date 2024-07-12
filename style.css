@@ -69,6 +69,29 @@ nav .nav-link ul li .contact::before {
 }
 
 /*  Style de la navbar */
+/* Style de joignable */
+.fcontact {
+  background-color: #5A7F54;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  font-size: 1.35vw;
+  width: 100%;
+}
+.fcontact .joignable {
+  text-align: center;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 2vh;
+}
+.fcontact .phone-join {
+  height: 2vw;
+  vertical-align: middle;
+  padding-bottom: 2vh;
+}
+
+/* Style de joignable */
 body {
   margin: 0;
   background-color: #F1EFF0;
