@@ -78,7 +78,7 @@
 
             if (windowWidth <= 600) {
                 // Animation pour téléphones
-                nav_scroll("1vh 3vw", "3vh 3vw");
+                nav_scroll("1vh 3vw", "3vh 3vw", "10vw", "14vw");
                 
             } else if (windowWidth <= 1024) {
                 // Animation pour tablettes

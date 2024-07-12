@@ -75,7 +75,7 @@ body {
   /* Styles pour téléphones */
   /* Style de la navbar */
   nav {
-    padding: 2.5vh 3vw;
+    padding: 3vh 3vw;
     box-shadow: 0vh 0.25vh 1.25vh rgba(0, 0, 0, 0.05);
   }
   nav .logo {
