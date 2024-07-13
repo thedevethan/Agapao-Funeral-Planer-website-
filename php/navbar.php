@@ -1,20 +1,11 @@
 <?php
 // Définir une fonction pour générer la barre de navigation
-function generateNavbar($home, $services, $about, $blog, $contact, $logo) {
+function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuImg, $closeImg) {
     // Commencer à insérer du HTML
     ?>
     <div class="navbar">
         <nav>
             <img src="<?php echo $logo; ?>" alt="logo" class="logo">
-
-            <!-- Script pour rediriger vers la page d'accueil quand on clique sur le logo -->
-            <script>
-                $(document).ready(function() {
-                    $(".logo").click(function() {
-                        window.location = "<?php echo $home; ?>";
-                    });
-                });
-            </script>
 
             <div class="nav-link">
                 <ul>
@@ -26,7 +17,7 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo) {
                 </ul>
             </div>
 
-            <img src="image/menu.png" alt="menu" class="hamburger">
+            <img src="<?php echo $menuImg; ?>" alt="menu" class="hamburger">
         </nav>
 
         <div class="nav-link-mobile">
@@ -40,9 +31,12 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo) {
         </div>
     </div>
 
-    <!-- Script pour gérer les animations de la barre de navigation -->
     <script>
         $(document).ready(function() {
+            // Rediriger vers la page d'accueil quand on clique sur le logo
+            $(".logo").click(function() {
+                window.location = "<?php echo $home; ?>";
+            });
 
             // Recharger la page lors du redimensionnement de la fenêtre
             $(window).resize(function() {
@@ -51,9 +45,7 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo) {
 
             // Fonction pour gérer le style de la barre de navigation au scroll
             function nav_scroll(padding_end, padding_start, logo_height_end, logo_height_start) {
-
                 $(window).scroll(function() {
-
                     var scroll = $(window).scrollTop();
 
                     if (scroll > 0) {
@@ -94,10 +86,10 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo) {
             function hamburger() {
                 $(".hamburger").click(function() {
                     if ($(".nav-link-mobile").is(":visible")) {
-                        this.setAttribute("src", "image/menu.png");
+                        this.setAttribute("src", "<?php echo $menuImg; ?>");
                         $(".nav-link-mobile").slideToggle();
                     } else {
-                        this.setAttribute("src", "image/close.png");
+                        this.setAttribute("src", "<?php echo $closeImg; ?>");
                         $(".nav-link-mobile").slideToggle();
                     }
                 });
@@ -110,20 +102,13 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo) {
                 if (windowWidth <= 600) {
                     nav_scroll("1vh 3vw", "3vh 3vw", "10vw", "14vw");
                     hamburger();
-
                 } else if (windowWidth >= 601 && windowWidth <= 1024) {
                     nav_scroll("0.3vh 3vw", "0.5vh 3vw", "7vw", "10vw");
                     hamburger();
-
                 } else {
                     nav_scroll("0.3vh 2vw", "0.5vh 2vw", "5vw", "6.5vw");
                 }
             }
-
-            // Appliquer les animations lors du clic sur le bouton
-            $("#toggleButton").click(function() {
-                handleAnimations();
-            });
 
             // Appliquer les animations appropriées lors du chargement de la page
             handleAnimations();

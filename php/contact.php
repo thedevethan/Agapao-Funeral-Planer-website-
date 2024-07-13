@@ -2,7 +2,7 @@
 require("header.php");
 hd('href="../style.css"', "../image/image_agapao.png");
 require("navbar.php");
-generateNavbar("../index.php", "#", "#", "#", "contact.php", "../image/Agapao - logo.png");
+generateNavbar("../index.php", "#", "#", "#", "contact.php", "../image/Agapao - logo.png", "../image/menu.png", "../image/close.png");
 ?>
 
 <div class="fcontact">
@@ -17,3 +17,5 @@ generateNavbar("../index.php", "#", "#", "#", "contact.php", "../image/Agapao - 
         </span>
     </p>
 </div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

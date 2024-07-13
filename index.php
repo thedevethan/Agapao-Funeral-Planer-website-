@@ -7,10 +7,9 @@ hd('href="style.css"', "image/image_agapao.png");
     
     <?php 
     require("php/navbar.php");
-    generateNavbar("index.php", "#", "#", "#", "php/contact.php", "image/Agapao - logo.png");
+    generateNavbar("index.php", "#", "#", "#", "php/contact.php", "image/Agapao - logo.png", "image/menu.png", "image/close.png");
 
-    // Code HTML pour la page d'accueil ici
-    require("php/home.php");
+
 
 
     ?>

@@ -140,6 +140,18 @@ body {
     font-size: 4vw;
   }
   /* Style de la navbar */
+  /* Style de joignable de la page contact*/
+  .fcontact {
+    font-size: 3.5vw;
+  }
+  .fcontact .joignable {
+    padding-top: 0.7vh;
+  }
+  .fcontact .phone-join {
+    height: 4vw;
+    padding-bottom: 0.7vh;
+  }
+  /* Style de joignable de la page contact*/
 }
 /* Petites tablettes (601px à 768px) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
