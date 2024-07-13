@@ -1,4 +1,16 @@
 @charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
 /*  Style de la navbar */
 .navbar {
   position: sticky;
@@ -74,10 +86,10 @@ nav .nav-link ul li .contact::before {
   background-color: #5A7F54;
   color: white;
   display: flex;
-  flex-wrap: wrap;
-  margin: 0;
+}
+.fcontact p {
   font-size: 1.35vw;
-  width: 100%;
+  margin: 0;
 }
 .fcontact .joignable {
   text-align: center;
@@ -141,15 +153,16 @@ body {
   }
   /* Style de la navbar */
   /* Style de joignable de la page contact*/
-  .fcontact {
+  .fcontact p {
     font-size: 3.5vw;
   }
   .fcontact .joignable {
-    padding-top: 0.7vh;
+    padding-top: 1.3vh;
+    padding-bottom: 1vh;
   }
   .fcontact .phone-join {
     height: 4vw;
-    padding-bottom: 0.7vh;
+    padding-bottom: 0.5vh;
   }
   /* Style de joignable de la page contact*/
 }
@@ -194,15 +207,15 @@ body {
   }
   /* Style de la navbar*/
   /* Style de joignable de la page contact*/
-  .fcontact {
+  .fcontact p {
     font-size: 2vw;
   }
   .fcontact .joignable {
-    padding-top: 1.7vh;
+    padding-top: 1.3vh;
   }
   .fcontact .phone-join {
-    height: 4vw;
-    padding-bottom: 1.7vh;
+    height: 2.5vw;
+    padding-bottom: 1.5vh;
   }
   /* Style de joignable de la page contact*/
 }
