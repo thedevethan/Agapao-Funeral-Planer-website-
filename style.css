@@ -192,6 +192,19 @@ body {
     color: #5A7F54;
     font-size: 2vw;
   }
+  /* Style de la navbar*/
+  /* Style de joignable de la page contact*/
+  .fcontact {
+    font-size: 2vw;
+  }
+  .fcontact .joignable {
+    padding-top: 1.7vh;
+  }
+  .fcontact .phone-join {
+    height: 4vw;
+    padding-bottom: 1.7vh;
+  }
+  /* Style de joignable de la page contact*/
 }
 
 /*# sourceMappingURL=style.css.map */
