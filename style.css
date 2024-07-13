@@ -200,7 +200,7 @@ body {
     font-size: 4vw;
   }
   /* Style de la navbar */
-  /* Style de joignable de la page contact*/
+  /* Style de la page contact*/
   .fcontact p {
     font-size: 3.5vw;
   }
@@ -212,7 +212,37 @@ body {
     height: 4vw;
     padding-bottom: 0.5vh;
   }
-  /* Style de joignable de la page contact*/
+  .votreecoute {
+    height: 65vh;
+  }
+  .ecoute-container {
+    height: 65vh;
+    gap: 3vh;
+    padding: 4vh 6vw;
+  }
+  .ecoute-container p {
+    padding: 0;
+    margin: 0;
+  }
+  .ecoute-container .e1-container {
+    background: none; /* ou une autre couleur de fond */
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: none;
+    border-radius: 1vw;
+    margin-bottom: 22vh;
+  }
+  .ecoute-container #e1 {
+    padding: 1vh 2vw;
+    font-size: 3.5vw;
+  }
+  .ecoute-container #e2 {
+    font-size: 6.5vw;
+  }
+  .ecoute-container #e3 {
+    font-size: 3.5vw;
+  }
+  /* Style de la page contact*/
 }
 /* Petites tablettes (601px à 768px) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
@@ -254,7 +284,7 @@ body {
     font-size: 2vw;
   }
   /* Style de la navbar*/
-  /* Style de joignable de la page contact*/
+  /* Style de la page contact*/
   .fcontact p {
     font-size: 2vw;
   }
@@ -265,7 +295,10 @@ body {
     height: 2.5vw;
     padding-bottom: 1.5vh;
   }
-  /* Style de joignable de la page contact*/
+  .ecoute-container #e3 {
+    font-size: 2vw;
+  }
+  /* Style de la page contact*/
 }
 
 /*# sourceMappingURL=style.css.map */
