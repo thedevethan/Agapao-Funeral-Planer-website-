@@ -11,7 +11,7 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuI
                 <ul>
                     <!-- Générer les liens de navigation avec les paramètres passés à la fonction -->
                     <li><a href="<?php echo $services; ?>">Prestations & services</a></li>
-                    <li><a href="<?php echo $about; ?>">À propos d’Agapao-Funeral</a></li>
+                    <li><a href="<?php echo $about; ?>">À propos d’Agapao-Funneral</a></li>
                     <li><a href="<?php echo $blog; ?>">Blog</a></li>
                     <li><a class="contact" href="<?php echo $contact; ?>">Contact</a></li>
                 </ul>
@@ -24,7 +24,7 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuI
             <ul>
                 <!-- Générer les liens de navigation mobile avec les mêmes paramètres -->
                 <li><a href="<?php echo $services; ?>">Prestations & services</a></li>
-                <li><a href="<?php echo $about; ?>">À propos d’Agapao-Funeral</a></li>
+                <li><a href="<?php echo $about; ?>">À propos d’Agapao-Funneral</a></li>
                 <li><a href="<?php echo $blog; ?>">Blog</a></li>
                 <li><a class="contact" href="<?php echo $contact; ?>">Contact</a></li>
             </ul>

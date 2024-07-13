@@ -81,7 +81,7 @@ nav .nav-link ul li .contact::before {
 }
 
 /*  Style de la navbar */
-/* Style de joignable */
+/* Style de la page contact */
 .fcontact {
   background-color: #5A7F54;
   color: white;
@@ -103,7 +103,55 @@ nav .nav-link ul li .contact::before {
   padding-bottom: 2vh;
 }
 
-/* Style de joignable */
+.votreecoute {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  background-image: url("image/contact.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.ecoute-container {
+  background: rgba(90, 127, 84, 0.2666666667);
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  align-items: center;
+  text-align: center;
+  padding: 6vh 6vw;
+}
+.ecoute-container p {
+  padding: 0;
+  margin: 0;
+}
+.ecoute-container .e1-container {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 0.5vw;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  margin-bottom: 25vh;
+}
+.ecoute-container #e1 {
+  padding: 1vh 2vw;
+  color: #5A7F54;
+  font-size: 2vw;
+}
+.ecoute-container #e2 {
+  color: white;
+  font-size: 4vw;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.ecoute-container #e3 {
+  color: white;
+  font-size: 1.35vw;
+}
+
+/* Style de la page contact*/
 body {
   margin: 0;
   background-color: #F1EFF0;
