@@ -1,8 +1,11 @@
 <?php
 require("header.php");
 hd('href="../style.css"', "../image/image_agapao.png");
+
 require("navbar.php");
 generateNavbar("../index.php", "#", "#", "#", "contact.php", "../image/Agapao - logo.png", "../image/menu.png", "../image/close.png");
+
+require("animation_visible.php");
 ?>
 
 <div class="fcontact">
@@ -17,13 +20,14 @@ generateNavbar("../index.php", "#", "#", "#", "contact.php", "../image/Agapao - 
 <div class="votreecoute">
 
     <div class="ecoute-container">
-        
-        <div class="e1-container">
+
+        <div class="e1-container element-to-animate">
             <p id="e1">JE SUIS À VOTRE ÉCOUTE...</p>
         </div>
-        
-        <p id="e2">Comment puis-je vous aider ?</p>
-        <p id="e3">N’hésitez pas à m’écrire par email, via le formulaire de contact ci-dessous ou encore à me joindre par téléphone. Je vous répondrai dans les plus brefs délais.</p>
+
+        <p id="e2" class="element-to-animate">Comment puis-je vous aider ?</p>
+        <p id="e3" class="element-to-animate">N’hésitez pas à m’écrire par email, via le formulaire de contact ci-dessous ou encore à me joindre par téléphone. Je vous répondrai dans les plus brefs délais.</p>
     </div>
 
 </div>
+
