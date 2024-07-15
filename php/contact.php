@@ -2,12 +2,17 @@
 require("header.php");
 hd('href="../style.css"', "../image/image_agapao.png");
 
-require("navbar.php");
-generateNavbar("../index.php", "#", "#", "#", "contact.php", "../image/Agapao - logo.png", "../image/menu.png", "../image/close.png");
+
 ?>
 
 <body>
 
+
+    <?php 
+    require("navbar.php");
+    generateNavbar("../index.php", "#", "#", "#", "contact.php", "../image/Agapao - logo.png", "../image/menu.png", "../image/close.png");
+    ?>
+    
     <div class="fcontact">
         <p class="joignable">
             Joignable au 07 18 62 32 66 de XXhXX à XXhXX. Après XXhXX : laissez-moi un message et vos coordonnées, je vous recontacterai dans les plus brefs délais.

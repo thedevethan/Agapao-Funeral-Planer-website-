@@ -23,6 +23,7 @@ body {
 .navbar {
   position: sticky;
   top: 0;
+  z-index: 2;
 }
 
 nav {
@@ -160,6 +161,130 @@ nav .nav-link ul li .contact::before {
 }
 
 /* Style de la page contact*/
+/*syle de la page home*/
+.first-bg-image-home-computer {
+  position: relative;
+  width: 100%;
+  height: 400px; /* ou une autre hauteur appropriée */
+}
+
+.background-image {
+  opacity: 30%;
+  position: absolute;
+  top: 64vh;
+  left: 50%;
+  width: 50vw;
+  height: auto;
+  transform: translate(-50%, -50%) scale(1.9);
+  object-fit: cover;
+  z-index: -1; /* Placer l'image derrière le contenu */
+}
+
+.first-bg-image-home-computer-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  color: white; /* Pour que le contenu soit lisible sur l'image */
+  padding-top: 15vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+.first-bg-image-home-computer-container .left {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+}
+.first-bg-image-home-computer-container .left p {
+  padding: 0;
+  margin: 0;
+}
+.first-bg-image-home-computer-container .left #p1 {
+  font-size: 1.5vw;
+  width: 35vw;
+  color: #5A7F54;
+}
+.first-bg-image-home-computer-container .left #p2 {
+  font-size: 3vw;
+  color: #223121;
+  width: 40vw;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.first-bg-image-home-computer-container .left #p3 {
+  width: 50vw;
+  font-size: 1.39vw;
+  color: #4d6e47;
+  line-height: 4vh;
+}
+.first-bg-image-home-computer-container .left #p3 .bold {
+  color: #2f4c2e;
+  font-weight: bold;
+}
+.first-bg-image-home-computer-container .left a {
+  padding: 2.5vh 2.5vw;
+  width: 18.9vw;
+  border-radius: 0 5vw 5vw 5vw;
+  color: white;
+  background-color: #5A7F54;
+  border: none;
+  text-decoration: none;
+  font-size: 1.7vw;
+}
+.first-bg-image-home-computer-container .left a:hover {
+  background-color: #51714c;
+}
+.first-bg-image-home-computer-container .right {
+  margin-right: 2vw;
+  position: relative;
+  width: 35vw;
+  z-index: 1; /* Assurez-vous que .right a un z-index plus élevé */
+}
+.first-bg-image-home-computer-container .right::before {
+  content: "";
+  position: absolute;
+  bottom: -20px; /* Ajustez la position verticale du fond */
+  right: -20px; /* Ajustez la position horizontale du fond */
+  width: 100%;
+  height: 100%;
+  background-color: #5A7F54; /* Couleur de fond */
+  z-index: 0; /* Assurez-vous que le pseudo-élément a un z-index plus bas */
+}
+.first-bg-image-home-computer-container .right .background-image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("image/prestation.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* L'image de fond doit être au-dessus du pseudo-élément */
+}
+.first-bg-image-home-computer-container .right a {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  text-decoration: none;
+  font-size: 1.35vw;
+  padding: 2vh 1vw;
+  border: #5A7F54 solid 1px;
+  border-bottom: #d1a839 solid 2px;
+  margin: 2vh 2vw;
+  z-index: 2; /* Le lien doit être au même niveau ou plus haut que le conteneur */
+}
+.first-bg-image-home-computer-container .right a:hover {
+  border: #d1a839 solid 1px;
+  border-bottom: #d1a839 solid 2px;
+}
+
+.hvr-bounce-to-top:before {
+  background: #d1a839 !important;
+}
+
+/*syle de la page home*/
 body {
   margin: 0;
   background-color: #F1EFF0;
