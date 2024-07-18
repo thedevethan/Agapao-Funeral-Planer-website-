@@ -1,6 +1,6 @@
 <?php
 
-function hd($style, $icon)
+function hd($css_file, $icon)
 {
 ?>
     <!DOCTYPE html>
@@ -14,7 +14,7 @@ function hd($style, $icon)
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--Style-->
-        <link rel="stylesheet" <?php echo $style; ?>>
+        <link rel="stylesheet" href="<?php echo $css_file . "style.css" . '?v=' . filemtime($css_file); ?>" >
         <link rel="icon" href="<?php echo $icon; ?>">
 
         <!--Font-->
