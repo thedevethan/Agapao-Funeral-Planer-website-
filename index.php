@@ -13,6 +13,9 @@ hd("", "image/Agapao - logo-icon-modified.png");
     ?>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-    <?php require("php/animation_visible.php");?>
+    <?php 
+    require("php/animation_visible.php");
+    require("php/footer.php");
+    ?>
 </body>
 </html>
