@@ -17,16 +17,17 @@
     <div class="first-bg-image-home-computer-container">
 
         <div class="left">
-            <p id="p1" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-once="true">ACCOMPAGNEMENT FUNÉRAIRE ET CÉRÉMONIES D'OBSÈQUES PERSONNALISÉES EN CÔTE D'IVOIRE.</p>
-            <p id="p2" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out" data-aos-once="true">Honorer la vie, alléger votre fardeau avec respect et dignité</p>
-            <p id="p3" data-aos="fade-up" data-aos-duration="1800" data-aos-easing="ease-out" data-aos-anchor="#p2"><span class="bold" data-aos-once="true">Agapao Funeral Planner</span> est une agence spécialisée dans <span class="bold">l'organisation</span>
-                et la <span class="bold">planification</span> d'obsèques personnalisées qui respecte les volontés du défunt,
-                vos volontés en apportant soutien et réconfort aux familles endeuillées.
+            <p id="p1" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-once="true">POURQUOI FAIRE APPEL À UNE AGENCE D'ACCOMPAGNEMENT FUNÉRAIRE?</p>
+            <p id="p2" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out" data-aos-once="true">
+                Le rôle d'un Funeral Planner, est de vous <span class="gold">conseiller</span>, <span class="gold">soutenir</span> et <span class="gold">gérer</span> l'organisation de funérailles.
+                Main dans la main, avec les Pompes Funèbres et autres prestataires de votre choix, <span class="gold">AGAPAO Funeral Planner</span>
+                vous accompagne depuis l'annonce du décès jusqu'au jour des obsèques. L'objectif est de <span class="gold">décharger</span> les familles
+                dans ces moments difficiles et d'<span class="gold">honorer</span> dignement la mémoire du défunt.
             </p>
         </div>
 
         <div class="right" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-            <a href="" class="link hvr-bounce-to-top">Découvrir les prestations</a>
+            <a href="" class="link hvr-bounce-to-top">Nos prestations</a>
             <img src="image/prestation.jpg" alt="prestation" class="background-image2">
         </div>
 
@@ -38,7 +39,7 @@
     <div class="div1">
 
         <div class="right-mobile">
-            <a href="" class="link hvr-bounce-to-top">Découvrir les prestations</a>
+            <a href="" class="link hvr-bounce-to-top">Nos prestations</a>
         </div>
         <div class="green1"></div>
     </div>
@@ -53,15 +54,15 @@
 <div class="valeurs">
     <div class="g2" data-aos="fade-right" data-aos-once="true">
         <div class="g1">
-            <div class="pourquoi" >
+            <div class="pourquoi">
                 <p id="p1">
-                    Pourquoi faire appel à une agence d'accompagnement funéraire?
+                    NOTRE VISION
                 </p>
                 <p id="p2">
-                    Le rôle d'un Funeral Planner, est de vous <span class="gold">conseiller</span>, <span class="gold">soutenir</span> et <span class="gold">gérer</span> l'organisation de funérailles.
-                    Main dans la main, avec les Pompes Funèbres et autres prestataires de votre choix, <span class="gold">AGAPAO Funeral Planner</span>
-                    vous accompagne depuis l'annonce du décès jusqu'au jour des obsèques. L'objectif est de <span class="gold">décharger</span> les familles
-                    dans ces moments difficiles et d'<span class="gold">honorer</span> dignement la mémoire du défunt.
+                    Notre agence se distingue par son <span class="gold">professionnalisme</span>, son <span class="gold">engagement</span> à être un <span class="gold">partenaire</span> <span class="gold">empathique</span>, respectueux des <span class="gold">traditions</span> et de vos <span class="gold">désirs</span>. Elle repose sur des <span class="gold">valeurs</span> <span class="gold">bienveillantes</span> et des <span class="gold">prestations</span> de <span class="gold">qualité</span>.
+                    Nous sommes totalement disposés à vous guider dans l’<span class="gold">organisation</span> de <span class="gold">funérailles</span> personnalisées. Dès la <span class="gold">constatation</span> du <span class="gold">décès</span>, à votre <span class="gold">sollicitation</span>, nous nous engageons à créer un <span class="gold">hommage</span> <span class="gold">sur-mesure</span> et faire une <span class="gold">gestion</span> complète des <span class="gold">obsèques</span>…
+                    Nos <span class="gold">prestations</span> sont <span class="gold">accessibles</span>, et capables de répondre aux <span class="gold">besoins</span> des <span class="gold">familles</span> <span class="gold">endeuillées</span>. Nous offrons à nos <span class="gold">clients</span> une <span class="gold">gamme</span> de <span class="gold">prestations</span> <span class="gold">diverses</span> et <span class="gold">personnalisées</span>, pour des <span class="gold">cérémonies</span> qui <span class="gold">honorent</span> la <span class="gold">vie</span>, l'<span class="gold">amour</span> et l'<span class="gold">héritage</span> du <span class="gold">défunt</span> sans jamais compromettre la <span class="gold">qualité</span> ou la <span class="gold">dignité</span> de ce dernier <span class="gold">hommage</span>.
+
                 </p>
             </div>
             <div class="vert1"></div>
@@ -119,11 +120,10 @@
     <div class="div1">
 
         <div class="right-mobile">
-            <a href="" class="link hvr-bounce-to-top">En savoir plus sur nous</a>
+            <a href="" class="link hvr-bounce-to-top">Demander un devis</a>
         </div>
         <div class="green1"></div>
     </div>
 
     <div class="green2"></div>
 </div>
-

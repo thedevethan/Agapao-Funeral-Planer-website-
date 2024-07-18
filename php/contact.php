@@ -1,6 +1,6 @@
 <?php
 require("header.php");
-hd('href="../style.css"', "../image/Agapao - logo-icon-modified.png");
+hd("../", "../image/Agapao - logo-icon-modified.png");
 
 
 ?>

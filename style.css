@@ -194,32 +194,27 @@ nav .nav-link ul li .contact::before {
 .first-bg-image-home-computer-container .left {
   display: flex;
   flex-direction: column;
-  gap: 7vh;
+  gap: 5vh;
 }
 .first-bg-image-home-computer-container .left p {
   padding: 0;
   margin: 0;
 }
 .first-bg-image-home-computer-container .left #p1 {
-  font-size: 1.5vw;
-  width: 35vw;
-  color: #5A7F54;
-}
-.first-bg-image-home-computer-container .left #p2 {
   font-size: 3vw;
   color: #223121;
-  width: 40vw;
+  width: 55vw;
   font-family: "Petrona", serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-.first-bg-image-home-computer-container .left #p3 {
-  width: 50vw;
+.first-bg-image-home-computer-container .left #p2 {
   font-size: 1.5vw;
-  color: #4d6e47;
+  width: 55vw;
+  color: #5A7F54;
   line-height: 4vh;
 }
-.first-bg-image-home-computer-container .left #p3 .bold {
+.first-bg-image-home-computer-container .left #p2 .gold {
   color: #2f4c2e;
   font-weight: bold;
 }
@@ -307,19 +302,16 @@ nav .nav-link ul li .contact::before {
   display: flex;
 }
 .valeurs .g2 .vert2 {
-  width: 2vw;
+  padding-left: 1.8vw;
   background-color: #5A7F54;
   margin-top: 3.5vh;
-  height: 81.2vh;
 }
 .valeurs .g2 .g1 .pourquoi {
   display: flex;
   flex-direction: column;
-  gap: 1vh;
-  width: 20vw;
+  gap: 2vh;
   background-color: rgba(34, 255, 0, 0.0784313725);
-  height: 77vh;
-  padding: 2vh 2vw;
+  padding: 3vh 2vw;
 }
 .valeurs .g2 .g1 .pourquoi #p1 {
   color: #223121;
@@ -334,12 +326,12 @@ nav .nav-link ul li .contact::before {
   font-weight: bold;
 }
 .valeurs .g2 .g1 .vert1 {
-  height: 3.7vh;
+  padding: 1.8vh 0;
   background-color: #5A7F54;
   margin-left: 2vw;
 }
 .valeurs img {
-  height: 5vw;
+  height: 7vw;
 }
 .valeurs p {
   margin: 0;
@@ -352,12 +344,12 @@ nav .nav-link ul li .contact::before {
   justify-content: center;
   width: 66.5vw;
   font-family: "Montserrat", sans-serif;
-  gap: 2.5vh;
+  gap: 3.5vh;
 }
 .valeurs .valeurs-content .top {
   display: flex;
   justify-content: space-between;
-  gap: 3.5vw;
+  gap: 4vw;
 }
 .valeurs .valeurs-content .accueil, .valeurs .valeurs-content .pro, .valeurs .valeurs-content .ecoute {
   color: #5A7F54;
@@ -365,6 +357,7 @@ nav .nav-link ul li .contact::before {
 }
 .valeurs .valeurs-content .accueil #title, .valeurs .valeurs-content .pro #title, .valeurs .valeurs-content .ecoute #title {
   font-weight: bold;
+  font-size: 2.5vw;
 }
 .valeurs .valeurs-content .accueil #text, .valeurs .valeurs-content .pro #text, .valeurs .valeurs-content .ecoute #text {
   line-height: 4vh;
@@ -516,7 +509,7 @@ body {
   .first-bg-image-home-computer {
     position: relative;
     width: 100%;
-    height: 53vh; /* ou une autre hauteur appropriée */
+    height: 73vh; /* ou une autre hauteur appropriée */
   }
   .background-image {
     display: none;
@@ -532,6 +525,37 @@ body {
     padding-left: 0vw;
     padding-right: 0vw;
     gap: 10vh;
+    /*
+        .left {
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+
+        #p1 {
+            font-size: 3vw;
+            color: #223121;
+            width: 55vw;
+            font-family: "Petrona", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        #p2 {
+            font-size: 1.5vw;
+            width: 55vw;
+            color: #5A7F54;
+            line-height: 4vh;
+
+            .gold {
+                color: #2f4c2e;
+                font-weight: bold;
+            }
+        }*/
   }
   .first-bg-image-home-computer-container .left {
     display: flex;
@@ -546,19 +570,14 @@ body {
     margin: 0;
   }
   .first-bg-image-home-computer-container .left #p1 {
-    font-size: 4.7vw;
-    width: 80vw;
-  }
-  .first-bg-image-home-computer-container .left #p2 {
     font-size: 6.7vw;
     width: 90vw;
   }
-  .first-bg-image-home-computer-container .left #p3 {
+  .first-bg-image-home-computer-container .left #p2 {
+    font-size: 4.7vw;
     width: 80vw;
-    font-size: 4vw;
-    line-height: 3.5vh;
   }
-  .first-bg-image-home-computer-container .left #p3 .bold {
+  .first-bg-image-home-computer-container .left #p2 .gold {
     font-weight: bold;
   }
   .first-bg-image-home-computer-container .right {
@@ -622,34 +641,31 @@ body {
   }
   .valeurs .g2 {
     display: flex;
+    margin: 0 6vw;
   }
   .valeurs .g2 .vert2 {
-    width: 3.5vw;
-    margin-top: 4vh;
-    height: 76.5vh;
+    padding-left: 4vw;
+    background-color: #5A7F54;
+    margin-top: 3.5vh;
   }
   .valeurs .g2 .g1 .pourquoi {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1vh;
-    width: 60vw;
-    height: 72vh;
-    padding: 4vh 4vw;
-    padding-bottom: 2.5vh;
+    padding: 3vh 2vw;
   }
   .valeurs .g2 .g1 .pourquoi #p1 {
-    font-size: 6vw;
+    color: #223121;
+    font-size: 5vw;
   }
   .valeurs .g2 .g1 .pourquoi #p2 {
     line-height: 4vh;
+    color: #5A7F54;
+    font-size: 4vw;
   }
   .valeurs .g2 .g1 .vert1 {
-    height: 2vh;
-    margin-left: 7vw;
+    padding: 1vh 0;
+    margin-left: 2vw;
   }
   .valeurs img {
-    height: 15vw;
+    height: 20vw;
   }
   .valeurs p {
     margin: 0;
@@ -674,7 +690,7 @@ body {
     width: 70vw;
   }
   .valeurs .valeurs-content .accueil #title, .valeurs .valeurs-content .pro #title, .valeurs .valeurs-content .ecoute #title {
-    font-size: 4.7vw;
+    font-size: 5vw;
   }
   .valeurs .valeurs-content .accueil #text, .valeurs .valeurs-content .pro #text, .valeurs .valeurs-content .ecoute #text {
     line-height: 3.5vh;
@@ -781,17 +797,27 @@ body {
   }
   /* Style de la page contact*/
   /*syle de la page home*/
-  .first-bg-image-home-computer-container .left #p1 {
-    font-size: 2vw;
+  .first-bg-image-home-computer-container .left {
+    gap: 2vh;
   }
-  .first-bg-image-home-computer-container .left #p2 {
+  .first-bg-image-home-computer-container .left #p1 {
     font-size: 3vw;
   }
-  .first-bg-image-home-computer-container .left #p3 {
-    font-size: 1.5vw;
+  .first-bg-image-home-computer-container .left #p2 {
+    font-size: 2vw;
+    line-height: 5vh;
   }
   .first-bg-image-home-computer-container .left a {
-    font-size: 1.7vw;
+    font-size: 2vw;
+  }
+  .valeurs {
+    font-size: 2vw;
+  }
+  .valeurs .g2 .g1 .pourquoi #p2 {
+    line-height: 3vw;
+  }
+  .valeurs .valeurs-content .accueil #text, .valeurs .valeurs-content .pro #text, .valeurs .valeurs-content .ecoute #text {
+    line-height: 4.5vh;
   }
   /*syle de la page home*/
 }
