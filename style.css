@@ -47,7 +47,7 @@ nav .nav-link ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 3.5vw;
+  gap: 2.5vw;
 }
 nav .nav-link ul li a {
   text-decoration: none;
@@ -95,6 +95,7 @@ nav .nav-link ul li .contact::before {
   background-color: #5A7F54;
   color: white;
   display: flex;
+  justify-content: center;
 }
 .fcontact p {
   font-size: 1.35vw;
@@ -268,7 +269,7 @@ nav .nav-link ul li .contact::before {
   right: 0;
   color: white;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 1.5vw;
   padding: 2vh 1vw;
   border: #5A7F54 solid 1px;
   border-bottom: #d1a839 solid 2px;
@@ -394,7 +395,7 @@ nav .nav-link ul li .contact::before {
   right: 0;
   color: white;
   text-decoration: none;
-  font-size: 3vw; /* Ajusté pour mobile */
+  font-size: 1.5vw; /* Ajusté pour mobile */
   padding: 2vh 1vw;
   border: #5A7F54 solid 1px;
   border-bottom: #d1a839 solid 2px;
@@ -470,7 +471,7 @@ body {
   /* Style de la navbar */
   /* Style de la page contact*/
   .fcontact p {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   .fcontact .joignable {
     padding-top: 1.3vh;

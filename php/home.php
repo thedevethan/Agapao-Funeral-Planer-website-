@@ -1,6 +1,9 @@
 <div class="fcontact">
     <p class="joignable">
-        Joignable au 07 18 62 32 66 de XXhXX à XXhXX. Après XXhXX : laissez-moi un message et vos coordonnées, je vous recontacterai dans les plus brefs délais.
+        Être l’agence de référence des familles endeuillées, afin qu’elles vivent sereinement le temps de l’adieu. <br><br>
+        <b>Honorer la vie, alléger votre fardeau avec respect et dignité</b><br><br>
+        Pour avoir plus d'informations ou pour toutes questions veuillez nous contacter: <br>
+        <a href="mailto:agapaofuneral@gmail.com">agapaofuneral@gmail.com</a> ou au 07 18 62 32 66
         <span>
             <img class="phone-join" src="image/phone.png" alt="phone">
         </span>
