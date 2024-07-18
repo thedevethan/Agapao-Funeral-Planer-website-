@@ -25,10 +25,12 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuI
         <div class="nav-link-mobile">
             <ul>
                 <!-- Générer les liens de navigation mobile avec les mêmes paramètres -->
-                <li><a href="<?php echo $services; ?>">Prestations & services</a></li>
-                <li><a href="<?php echo $about; ?>">À propos d’Agapao-Funneral</a></li>
-                <li><a href="<?php echo $blog; ?>">Vidéos & témoignages</a></li>
-                <li><a class="contact" href="<?php echo $contact; ?>">Contact</a></li>
+                <li><a href="<?php echo $services; ?>">Qui sommes nous?</a></li>
+                    <li><a href="<?php echo $about; ?>">Prestations & Accompagnements</a></li>
+                    <li><a href="<?php echo $blog; ?>">Evènements</a></li>
+                    <li><a href="<?php echo $blog; ?>">Articles</a></li>
+                    <li><a href="<?php echo $blog; ?>">Galerie</a></li>
+                    <li><a href="<?php echo $blog; ?>">Nous contacter</a></li>
             </ul>
         </div>
     </div>
