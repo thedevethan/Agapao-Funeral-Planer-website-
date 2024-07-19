@@ -276,6 +276,10 @@ nav .nav-link ul li .contact::before {
   border-bottom: #d1a839 solid 2px;
 }
 
+.div2 {
+  display: none;
+}
+
 .body-menu {
   display: flex;
   flex-direction: column;
@@ -848,82 +852,65 @@ footer .sign {
     width: 4.7vw;
     margin-right: 7vw;
   }
-  .valeurs {
-    margin-top: -7vh;
+  .body-menu {
+    margin-top: 3.5vh;
     display: flex;
-    text-align: center;
-    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 4vw;
+    text-align: center;
     font-size: 4vw;
-    padding: 4vh 3vw;
+    gap: 5vh;
   }
-  .valeurs .g2 {
+  .body-menu p {
+    margin: 0;
+    padding: 0;
+  }
+  .body-menu .title {
+    color: #d1a839;
+    font-size: 6vw;
+  }
+  .body-menu .title img {
+    height: 20vw;
+    margin-top: -4vh;
+    margin-bottom: -4vw;
+  }
+  .body-menu .vision .bodyy {
+    padding: 0vh 15vw;
+  }
+  .body-menu .vision .bodyy .g2 {
     display: flex;
-    margin: 0 6vw;
   }
-  .valeurs .g2 .vert2 {
+  .body-menu .vision .bodyy .g2 .vert2 {
     padding-left: 4vw;
-    background-color: #5A7F54;
     margin-top: 3.5vh;
   }
-  .valeurs .g2 .g1 .pourquoi {
-    padding: 3vh 2vw;
+  .body-menu .vision .bodyy .g2 .g1 .vision-p {
+    display: flex;
+    flex-direction: column;
+    padding: 3vh 5vw;
   }
-  .valeurs .g2 .g1 .pourquoi #p1 {
-    color: #223121;
-    font-size: 5vw;
-  }
-  .valeurs .g2 .g1 .pourquoi #p2 {
+  .body-menu .vision .bodyy .g2 .g1 .vision-p #p2 {
     line-height: 4vh;
-    color: #5A7F54;
-    font-size: 4vw;
   }
-  .valeurs .g2 .g1 .vert1 {
-    padding: 1vh 0;
-    margin-left: 2vw;
+  .body-menu .vision .bodyy .g2 .g1 .vert1 {
+    padding: 1.3vh 0;
+    margin-left: 6vw;
   }
-  .valeurs img {
-    height: 20vw;
-  }
-  .valeurs p {
-    margin: 0;
-    padding: 0;
-  }
-  .valeurs .valeurs-content {
+  .body-menu .value .bodyyy {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    width: 66.5vw;
-    gap: 2.8vh;
+    gap: 7vw;
   }
-  .valeurs .valeurs-content .top {
-    margin-top: 2.5vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 2.8vh;
-  }
-  .valeurs .valeurs-content .accueil, .valeurs .valeurs-content .pro, .valeurs .valeurs-content .ecoute {
-    width: 70vw;
-  }
-  .valeurs .valeurs-content .accueil #title, .valeurs .valeurs-content .pro #title, .valeurs .valeurs-content .ecoute #title {
-    font-size: 5vw;
-  }
-  .valeurs .valeurs-content .accueil #text, .valeurs .valeurs-content .pro #text, .valeurs .valeurs-content .ecoute #text {
+  .body-menu .value .bodyyy .home, .body-menu .value .bodyyy .pro, .body-menu .value .bodyyy .ecoute, .body-menu .value .bodyyy .dispo, .body-menu .value .bodyyy .conf {
     line-height: 3.5vh;
-  }
-  .valeurs .decoration-flower2 {
-    display: block;
-    background-color: aqua;
-  }
-  .valeurs .decoration-flower2 p {
-    margin: 0;
+    width: 70vw;
     padding: 0;
-    font-size: 3vw;
-    color: #5A7F54;
+  }
+  .body-menu .value .bodyyy .home #title, .body-menu .value .bodyyy .pro #title, .body-menu .value .bodyyy .ecoute #title, .body-menu .value .bodyyy .dispo #title, .body-menu .value .bodyyy .conf #title {
+    font-size: 6vw;
+  }
+  .body-menu .value .bodyyy .home img, .body-menu .value .bodyyy .pro img, .body-menu .value .bodyyy .ecoute img, .body-menu .value .bodyyy .dispo img, .body-menu .value .bodyyy .conf img {
+    height: 20vw;
   }
   .div3 {
     display: block;
@@ -938,7 +925,7 @@ footer .sign {
     position: relative;
   }
   .div3 .div1 .right-mobile a {
-    font-size: 3.5vw; /* Ajusté pour mobile */
+    font-size: 3.5vw;
     padding: 1vh 0.7vw;
     border: #5A7F54 solid 1px;
     border-bottom: #d1a839 solid 2px;

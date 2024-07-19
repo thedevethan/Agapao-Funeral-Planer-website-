@@ -35,6 +35,18 @@
 
 </div>
 
+<div class="div2" data-aos="zoom-in" data-aos-duration="1400" data-aos-once="true">
+    <div class="div1">
+
+        <div class="right-mobile">
+            <a href="" class="link hvr-bounce-to-top">Nos prestations</a>
+        </div>
+        <div class="green1"></div>
+    </div>
+
+    <div class="green2"></div>
+</div>
+
 <div class="body-menu">
     <div class="vision">
         <div class="title">
@@ -165,19 +177,9 @@
 
 </div>
 
+
+
 <!--
-<div class="div2" data-aos="zoom-in" data-aos-duration="1400" data-aos-once="true">
-    <div class="div1">
-
-        <div class="right-mobile">
-            <a href="" class="link hvr-bounce-to-top">Nos prestations</a>
-        </div>
-        <div class="green1"></div>
-    </div>
-
-    <div class="green2"></div>
-</div>
-
 <div class="decoration-flower1">
     <p>
         NOTRE VISION
