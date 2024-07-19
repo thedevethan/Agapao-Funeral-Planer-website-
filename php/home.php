@@ -137,7 +137,7 @@
             </p>
             <img src="image/private-account.png" alt="conf">
             <p id="text">
-            Nous <span class="gold">sommes</span> présents auprès de nos <span class="gold">clients</span> et des <span class="gold">familles</span> à toutes les étapes des <span class="gold">obsèques</span>. Notre <span class="gold">implication</span> traduit notre <span class="gold">disponibilité</span> à vos côtés afin de <span class="gold">supporter</span> mais surtout de vous <span class="gold">décharger</span> dans cette <span class="gold">période</span>.
+            C'est le <span class="gold">respect</span> que nous devons au <span class="gold">client</span>. Nous veillons à construire avec une <span class="gold">relation de confiance</span> basée sur notre <span class="gold">charte d'éthique</span> et de <span class="gold">déontologie</span>.
             </p>
             </div>
         </div>

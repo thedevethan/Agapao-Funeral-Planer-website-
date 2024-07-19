@@ -1130,14 +1130,20 @@ footer .sign {
   .first-bg-image-home-computer-container .left a {
     font-size: 2vw;
   }
-  .valeurs {
+  .body-menu {
     font-size: 2vw;
   }
-  .valeurs .g2 .g1 .pourquoi #p2 {
-    line-height: 3vw;
+  .body-menu .title {
+    font-size: 3vw;
   }
-  .valeurs .valeurs-content .accueil #text, .valeurs .valeurs-content .pro #text, .valeurs .valeurs-content .ecoute #text {
-    line-height: 4.5vh;
+  .body-menu .vision .bodyy .g2 .g1 .vision-p #p2 {
+    line-height: 5vh;
+  }
+  .body-menu .value .bodyyy .home #title, .body-menu .value .bodyyy .pro #title, .body-menu .value .bodyyy .ecoute #title, .body-menu .value .bodyyy .dispo #title, .body-menu .value .bodyyy .conf #title {
+    font-size: 3vw;
+  }
+  .body-menu .value .bodyyy .home #text, .body-menu .value .bodyyy .pro #text, .body-menu .value .bodyyy .ecoute #text, .body-menu .value .bodyyy .dispo #text, .body-menu .value .bodyyy .conf #text {
+    line-height: 5vh;
   }
   /*syle de la page home*/
   /*Style du footer*/
