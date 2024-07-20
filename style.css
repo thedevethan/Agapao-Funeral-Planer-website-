@@ -1491,6 +1491,62 @@ footer .sign {
   .body-menu .value .bodyyy .home #text, .body-menu .value .bodyyy .pro #text, .body-menu .value .bodyyy .ecoute #text, .body-menu .value .bodyyy .dispo #text, .body-menu .value .bodyyy .conf #text {
     line-height: 5vh;
   }
+  .body-menu .prestations .bodyyyy {
+    gap: 5vh;
+  }
+  .body-menu .prestations .bodyyyy .prestaa {
+    gap: 4vh;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .titre {
+    font-size: 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content {
+    gap: 8vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire p {
+    font-size: 2vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement p {
+    font-size: 2vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation p {
+    font-size: 2vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement p {
+    font-size: 2vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa div a {
+    font-size: 2vw;
+  }
+  .body-menu .prestations .bodyyyy .formula {
+    gap: 4vh;
+  }
+  .body-menu .prestations .bodyyyy .formula .titre {
+    font-size: 4vw;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content {
+    gap: 4vh;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content .presta-formula {
+    font-size: 2vw;
+  }
+  .body-menu .prestations .bodyyyy .formula div a {
+    font-size: 2vw;
+  }
+  .title-singulier p {
+    font-size: 3vw;
+  }
+  .title-singulier img {
+    margin-top: -10vh;
+  }
   /*syle de la page home*/
   /*Style du footer*/
   footer {
