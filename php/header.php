@@ -39,6 +39,10 @@ function hd($css_file, $icon)
         <!--Hover.css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
 
+        <!--Fontawesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
         <!--Title-->
         <title>Agapao-Funeral-Planer</title>
     </head>

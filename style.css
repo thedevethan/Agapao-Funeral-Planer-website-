@@ -291,14 +291,6 @@ nav .nav-link ul li .contact::before {
   margin: 0;
   padding: 0;
 }
-.body-menu .title {
-  color: #d1a839;
-}
-.body-menu .title img {
-  height: 13vw;
-  margin-top: -12vh;
-  margin-bottom: -4vw;
-}
 .body-menu .vision .bodyy {
   padding: 0vh 35vw;
 }
@@ -356,6 +348,247 @@ nav .nav-link ul li .contact::before {
   color: #5A7F54;
   font-weight: bold;
 }
+.body-menu .prestations .bodyyyy {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  gap: 5vh;
+}
+.body-menu .prestations .bodyyyy .prestaa {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.body-menu .prestations .bodyyyy .prestaa .titre {
+  margin: 0;
+  padding: 0;
+  color: #5A7F54;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire {
+  background-image: url("image/ceremonie-fu.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement {
+  background-image: url("image/enterrement.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation {
+  background-image: url("image/organisation.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement {
+  background-image: url("image/hand.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.body-menu .prestations .bodyyyy .prestaa div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-menu .prestations .bodyyyy .prestaa div a {
+  color: #d1a839;
+  text-decoration: none;
+  font-size: 1.5vw;
+  border: #d1a839 solid 2px;
+  border-bottom: #d1a839 solid 2px;
+  font-family: "Marcellus";
+  height: 7vh;
+  width: 15vw;
+  padding-top: 3vh;
+}
+.body-menu .prestations .bodyyyy .prestaa div a:hover {
+  color: white;
+}
+.body-menu .prestations .bodyyyy .formula {
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+}
+.body-menu .prestations .bodyyyy .formula .titre {
+  margin: 0;
+  padding: 0;
+  color: #5A7F54;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.body-menu .prestations .bodyyyy .formula .formula-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+}
+.body-menu .prestations .bodyyyy .formula .formula-content .presta-formula {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2vw;
+  font-size: 1.39vw;
+  background-color: rgba(34, 255, 0, 0.0784313725);
+  color: #5A7F54;
+  padding: 1vh 0vw;
+}
+.body-menu .prestations .bodyyyy .formula .formula-content .presta-formula ul.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+.body-menu .prestations .bodyyyy .formula .formula-content .presta-formula ul.custom-list li {
+  position: relative;
+  padding-top: 2vh;
+  padding-left: 3vw; /* Adjust this value based on your icon size */
+  text-align: left;
+  margin: 0 2vw;
+}
+.body-menu .prestations .bodyyyy .formula .formula-content .presta-formula ul.custom-list li::before {
+  padding-top: 2vh;
+  content: "\f00c"; /* FontAwesome 'check' icon unicode */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: green; /* You can change the color as needed */
+}
+.body-menu .prestations .bodyyyy .formula .formula-content .presta-formula p {
+  top: 0;
+  font-weight: bold;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  background-color: #223121;
+  margin-top: -1vh;
+  border-radius: 2vw 2vw 0vw 0vw;
+  padding: 2vh 6vw;
+}
+.body-menu .prestations .bodyyyy .formula div a {
+  color: #d1a839;
+  text-decoration: none;
+  font-size: 1.5vw;
+  border: #d1a839 solid 2px;
+  border-bottom: #d1a839 solid 2px;
+  font-family: "Marcellus";
+  height: 7vh;
+  width: 15vw;
+  padding-top: 3vh;
+}
+.body-menu .prestations .bodyyyy .formula div a:hover {
+  color: white;
+}
+
+.title-singulier {
+  color: #d1a839;
+}
+.title-singulier p {
+  font-size: 2.5vw;
+}
+.title-singulier img {
+  height: 13vw;
+  margin-top: -12vh;
+  margin-bottom: -4vw;
+}
+
+.hvr-bounce-to-top:before {
+  background: #d1a839 !important;
+}
 
 /*
 .div2 {
@@ -363,9 +596,7 @@ nav .nav-link ul li .contact::before {
 }
 
 
-.hvr-bounce-to-top:before {
-    background: #d1a839 !important;
-}
+
 
 .decoration-flower1 {
     display: none;
@@ -866,7 +1097,7 @@ footer .sign {
   }
   .body-menu .title {
     color: #d1a839;
-    font-size: 6vw;
+    font-size: 10vw;
   }
   .body-menu .title img {
     height: 20vw;
@@ -911,6 +1142,121 @@ footer .sign {
   }
   .body-menu .value .bodyyy .home img, .body-menu .value .bodyyy .pro img, .body-menu .value .bodyyy .ecoute img, .body-menu .value .bodyyy .dispo img, .body-menu .value .bodyyy .conf img {
     height: 20vw;
+  }
+  .body-menu .prestations .bodyyyy {
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    gap: 5vh;
+  }
+  .body-menu .prestations .bodyyyy .prestaa {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .titre {
+    font-size: 5vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8vw;
+    align-items: center;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire {
+    height: 25vh;
+    width: 85vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire p {
+    font-size: 4vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement {
+    height: 25vh;
+    width: 85vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement p {
+    font-size: 4vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation {
+    height: 25vh;
+    width: 85vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation p {
+    font-size: 4vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement {
+    height: 25vh;
+    width: 85vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement p {
+    font-size: 4vw;
+    border-radius: 5vw 0 0 0;
+    padding: 0.7vh 3vw;
+  }
+  .body-menu .prestations .bodyyyy .prestaa div a {
+    font-size: 3.5vw;
+    height: 4vh;
+    width: 25vw;
+    padding-top: 2vh;
+  }
+  .body-menu .prestations .bodyyyy .formula {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+  }
+  .body-menu .prestations .bodyyyy .formula .titre {
+    font-size: 5vw;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+    align-items: center;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content #sur {
+    margin: 0 5vw;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content .presta-formula {
+    border-radius: 4vw;
+    font-size: 4vw;
+    padding: 1vh 0vw;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content .presta-formula ul.custom-list li {
+    position: relative;
+    padding-top: 3vh;
+    padding-left: 5.5vw; /* Adjust this value based on your icon size */
+    margin: 0 4vw;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content .presta-formula ul.custom-list li::before {
+    padding-top: 3vh;
+  }
+  .body-menu .prestations .bodyyyy .formula .formula-content .presta-formula p {
+    border-radius: 4vw 4vw 0vw 0vw;
+    padding: 2vh 6vw;
+  }
+  .body-menu .prestations .bodyyyy .formula div a {
+    font-size: 3.5vw;
+    height: 4vh;
+    width: 25vw;
+    padding-top: 2vh;
+  }
+  .title-singulier p {
+    font-size: 6vw;
+    color: #d1a839;
+  }
+  .title-singulier img {
+    height: 20vw;
+    margin-top: -4vh;
+    margin-bottom: -4vw;
   }
   .div3 {
     display: block;

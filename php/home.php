@@ -39,7 +39,7 @@
     <div class="div1">
 
         <div class="right-mobile">
-            <a href="" class="link hvr-bounce-to-top">Nos prestations</a>
+            <a href="" class="link hvr-bounce-to-top">En savoir plus sur Agapao</a>
         </div>
         <div class="green1"></div>
     </div>
@@ -49,7 +49,7 @@
 
 <div class="body-menu">
     <div class="vision">
-        <div class="title">
+        <div class="title-singulier">
             <p>
                 NOTRE VISION
             </p>
@@ -72,7 +72,7 @@
         </div>
     </div>
     <div class="value">
-        <div class="title">
+        <div class="title-singulier">
             <p>
                 NOS VALEURS
             </p>
@@ -80,7 +80,7 @@
         </div>
 
         <div class="bodyyy">
-            <div class="home" >
+            <div class="home">
                 <p id="title">
                     ACCUEIL
                 </p>
@@ -106,51 +106,164 @@
             </div>
 
             <div class="ecoute">
-            <p id="title">
-                ÉCOUTE
-            </p>
-            <img src="image/ear.png" alt="hear">
-            <p id="text">
-                L'<span class="gold">écoute</span> nous permet d'avoir une vision <span class="gold">objective</span> et <span class="gold">précise</span> de votre besoin.
-                Nous vous écoutons avec une <span class="gold">ouverture d'esprit</span> pour vous <span class="gold">comprendre</span> et vous apporter
-                l'assistance la plus <span class="gold">adaptée</span> pour vous et vos proches.
-            </p>
+                <p id="title">
+                    ÉCOUTE
+                </p>
+                <img src="image/ear.png" alt="hear">
+                <p id="text">
+                    L'<span class="gold">écoute</span> nous permet d'avoir une vision <span class="gold">objective</span> et <span class="gold">précise</span> de votre besoin.
+                    Nous vous écoutons avec une <span class="gold">ouverture d'esprit</span> pour vous <span class="gold">comprendre</span> et vous apporter
+                    l'assistance la plus <span class="gold">adaptée</span> pour vous et vos proches.
+                </p>
             </div>
 
-            <div class="dispo" >
-            <p id="title">
-                DISPONIBILITÉ
-            </p>
-            <img src="image/calendar.png" alt="calendar">
-            <p id="text">
-            Nous <span class="gold">sommes</span> présents auprès de nos <span class="gold">clients</span>
-            et des <span class="gold">familles</span> à toutes les étapes des <span class="gold">obsèques</span>.
-            Notre <span class="gold">implication</span> traduit notre <span class="gold">disponibilité</span> à vos côtés afin de 
-            <span class="gold">supporter</span> mais surtout de vous <span class="gold">décharger</span> dans cette 
-            <span class="gold">période</span>.
-            </p>
+            <div class="dispo">
+                <p id="title">
+                    DISPONIBILITÉ
+                </p>
+                <img src="image/calendar.png" alt="calendar">
+                <p id="text">
+                    Nous <span class="gold">sommes</span> présents auprès de nos <span class="gold">clients</span>
+                    et des <span class="gold">familles</span> à toutes les étapes des <span class="gold">obsèques</span>.
+                    Notre <span class="gold">implication</span> traduit notre <span class="gold">disponibilité</span> à vos côtés afin de
+                    <span class="gold">supporter</span> mais surtout de vous <span class="gold">décharger</span> dans cette
+                    <span class="gold">période</span>.
+                </p>
             </div>
 
-            <div class="conf" >
-            <p id="title">
-                CONFIDENTIALITÉ
-            </p>
-            <img src="image/private-account.png" alt="conf">
-            <p id="text">
-            C'est le <span class="gold">respect</span> que nous devons au <span class="gold">client</span>. Nous veillons à construire avec une <span class="gold">relation de confiance</span> basée sur notre <span class="gold">charte d'éthique</span> et de <span class="gold">déontologie</span>.
-            </p>
+            <div class="conf">
+                <p id="title">
+                    CONFIDENTIALITÉ
+                </p>
+                <img src="image/private-account.png" alt="conf">
+                <p id="text">
+                    C'est le <span class="gold">respect</span> que nous devons au <span class="gold">client</span>. Nous veillons à construire avec une <span class="gold">relation de confiance</span> basée sur notre <span class="gold">charte d'éthique</span> et de <span class="gold">déontologie</span>.
+                </p>
             </div>
         </div>
-        <div class="prestations">
-        <div class="title">
+    </div>
+
+    <div class="prestations">
+        <div class="title-singulier">
             <p>
                 PRESTATIONS & ACCOMPAGNEMENTS
             </p>
             <img src="image/floral1.png" alt="flower">
         </div>
+
+        <div class="bodyyyy">
+            <div class="prestaa">
+                <p class="titre">
+                    Prestations
+                </p>
+                <div class="prestation-content">
+                    <div class="funeraire">
+                        <p>
+                            Cérémonie funéraire
+                        </p>
+                    </div>
+                    <div class="enterrement">
+                        <p>
+                            Enterrement
+                        </p>
+                    </div>
+                    <div class="organisation">
+                        <p>
+                            Organisation, gestion et suivi des obsèques
+                        </p>
+                    </div>
+                    <div class="accompagnement">
+                        <p>
+                            Accompagnement avant - pendant - après
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" class="link hvr-bounce-to-top">Voir plus</a>
+                </div>
+
+            </div>
+            <div class="formula">
+                <p class="titre">
+                    Formules
+                </p>
+
+                <div class="formula-content">
+                    <div class="presta-formula">
+                        <p>
+                            ÉCONOMIA
+                        </p>
+                        <ul class="custom-list">
+                            <li>Décoration Chapelle Ardente</li>
+                            <li>Faire part décès</li>
+                            <li>Livre d'or</li>
+                            <li>Livret d'église</li>
+                            <li>Couverture Média (photos, vidéos)</li>
+                            <li>Faire part décès de l'enterrement</li>
+                        </ul>
+                    </div>
+                    <div class="presta-formula">
+                        <p>
+                            DIGNITÉ
+                        </p>
+                        <ul class="custom-list">
+                            <li>Gestion des tâches administratives</li>
+                            <li>Décoration Chapelle Ardente</li>
+                            <li>Faire part décès</li>
+                            <li>Livre d'or</li>
+                            <li>Livret d'église</li>
+                            <li>Couverture Média (photos, vidéos)</li>
+                        </ul>
+                    </div>
+                    <div class="presta-formula">
+                        <p>
+                            HONNEUR
+                        </p>
+
+                        <ul class="custom-list">
+                            <li>Conseils et accompagnement</li>
+                            <li>Décoration Chapelle Ardente</li>
+                            <li>Travaux du cimetière</li>
+                            <li>Faire part décès</li>
+                            <li>Livre d'or</li>
+                            <li>Livret d'église</li>
+                        </ul>
+                    </div>
+                    <div class="presta-formula">
+                        <p>
+                            PRESTIGE
+                        </p>
+                        <ul class="custom-list">
+                            <li>Faire part décès</li>
+                            <li>Livre d'or</li>
+                            <li>Livret d'église</li>
+                            <li>Travaux de cimetière</li>
+                            <li>Faire part décès</li>
+                            <li>Souvenirs pour les familles</li>
+                        </ul>
+                    </div>
+
+                    <div class="presta-formula" id="sur">
+                        <p>
+                            SUR MESURE
+                        </p>
+                        <ul class="custom-list">
+                            <li>Nos équipes sont à l'écoute des clients selon leur besoin.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div>
+                    <a href="#" class="link hvr-bounce-to-top">Voir plus</a>
+                </div>
+
+
+            </div>
+        </div>
     </div>
     <div class="event">
-        <div class="title">
+        <div class="title-singulier">
             <p>
                 EVENEMENTS
             </p>
@@ -158,7 +271,7 @@
         </div>
     </div>
     <div class="article">
-        <div class="title">
+        <div class="title-singulier">
             <p>
                 ARTICLES
             </p>
@@ -166,14 +279,14 @@
         </div>
     </div>
     <div class="galerie">
-        <div class="title">
+        <div class="title-singulier">
             <p>
                 GALERIE
             </p>
             <img src="image/floral1.png" alt="flower">
         </div>
     </div>
-    </div>
+</div>
 
 </div>
 
