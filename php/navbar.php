@@ -30,7 +30,7 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuI
                     <li><a href="<?php echo $blog; ?>">Evènements</a></li>
                     <li><a href="<?php echo $blog; ?>">Articles</a></li>
                     <li><a href="<?php echo $blog; ?>">Galerie</a></li>
-                    <li><a href="<?php echo $blog; ?>">Nous contacter</a></li>
+                    <li><a href="<?php echo $contact; ?>">Nous contacter</a></li>
             </ul>
         </div>
     </div>

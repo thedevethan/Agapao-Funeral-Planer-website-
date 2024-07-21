@@ -807,6 +807,7 @@ body {
   font-style: normal;
 }
 
+/*Style du devis*/
 .form-container {
   display: flex;
   flex-direction: column;
@@ -829,13 +830,16 @@ body {
   gap: 3vh;
 }
 .form-container form textarea {
+  border-radius: 0vw;
   resize: vertical;
 }
 .form-container form #name, .form-container form #email, .form-container form #tel, .form-container form textarea {
+  border-radius: 0vw;
   border: #5A7F54 solid 1.5px;
   padding: 1.5vh;
 }
 .form-container form #sub {
+  border-radius: 0vw;
   background-color: #5A7F54;
   color: white;
   padding: 2vh;
@@ -846,6 +850,7 @@ body {
   background-color: #51714c;
 }
 
+/*Style du devis*/
 /*Style du footer*/
 footer {
   display: flex;
@@ -1487,6 +1492,55 @@ footer .sign {
     padding: 0 3vw;
   }
   /*Style du footer*/
+  /*Style du devis*/
+  .form-container {
+    gap: 3vh;
+    padding: 5vh 0;
+  }
+  .form-container p {
+    padding: 0 4vw;
+    font-size: 4vw;
+  }
+  .form-container form {
+    width: 70vw;
+    gap: 3vh;
+  }
+  .form-container form #name, .form-container form #email, .form-container form #tel, .form-container form textarea {
+    padding: 1.5vh;
+  }
+  /* Form element styles */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+  }
+  button:focus,
+  input:focus,
+  optgroup:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+  }
+  /* Placeholder styles */
+  input::placeholder,
+  textarea::placeholder {
+    font-family: "Marcellus", serif;
+    font-size: 4vw; /* Ajustez la taille selon vos besoins */
+    opacity: 1; /* Assurez-vous que le texte soit entièrement opaque */
+  }
+  /* Specific styles for iOS */
+  @supports (-webkit-touch-callout: none) {
+    input::placeholder,
+    textarea::placeholder {
+      font-size: 4vw; /* Ajustez la taille selon vos besoins */
+    }
+  }
+  /*Style du devis*/
 }
 /* Petites tablettes (601px à 768px) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
@@ -1634,6 +1688,43 @@ footer .sign {
     font-size: 2vw;
   }
   /*Style du footer*/
+  /*Style du devis*/
+  .form-container {
+    gap: 3vh;
+    padding: 5vh 0;
+  }
+  .form-container p {
+    padding: 0 6vw;
+    font-size: 2vw;
+  }
+  .form-container form {
+    width: 70vw;
+    gap: 6vh;
+  }
+  .form-container form #name, .form-container form #email, .form-container form #tel, .form-container form textarea {
+    padding: 1.5vh;
+  }
+  /* Form element styles */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-size: 2vw;
+  }
+  /* Placeholder styles */
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 2vw; /* Ajustez la taille selon vos besoins */
+  }
+  /* Specific styles for iOS */
+  @supports (-webkit-touch-callout: none) {
+    input::placeholder,
+    textarea::placeholder {
+      font-size: 2vw; /* Ajustez la taille selon vos besoins */
+    }
+  }
+  /*Style du devis*/
 }
 
 /*# sourceMappingURL=style.css.map */
