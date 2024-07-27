@@ -141,14 +141,7 @@ nav .nav-link ul li .contact::before {
 }
 .fcontact .joignable {
   text-align: center;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  padding-top: 2vh;
-}
-.fcontact .phone-join {
-  height: 2vw;
-  vertical-align: middle;
-  padding-bottom: 2vh;
+  padding: 2vh 3vw;
 }
 
 .votreecoute {
@@ -239,7 +232,7 @@ nav .nav-link ul li .contact::before {
   margin: 0;
 }
 .first-bg-image-home-computer-container .left #p1 {
-  font-size: 3vw;
+  font-size: 2vw;
   color: #223121;
   width: 55vw;
   font-family: "Petrona", serif;
@@ -249,11 +242,11 @@ nav .nav-link ul li .contact::before {
 .first-bg-image-home-computer-container .left #p2 {
   font-size: 1.5vw;
   width: 55vw;
-  color: #5A7F54;
-  line-height: 4vh;
+  color: #223121;
+  line-height: 5.5vh;
 }
 .first-bg-image-home-computer-container .left #p2 .gold {
-  color: #2f4c2e;
+  color: #1c8819;
   font-weight: bold;
 }
 .first-bg-image-home-computer-container .left a {
@@ -330,7 +323,7 @@ nav .nav-link ul li .contact::before {
   padding: 0;
 }
 .body-menu .vision .bodyy {
-  padding: 0vh 35vw;
+  padding: 0vh 12vw;
 }
 .body-menu .vision .bodyy .g2 {
   display: flex;
@@ -351,7 +344,7 @@ nav .nav-link ul li .contact::before {
   font-size: 2vw;
 }
 .body-menu .vision .bodyy .g2 .g1 .vision-p #p2 {
-  line-height: 4vh;
+  line-height: 5.5vh;
   color: #5A7F54;
 }
 .body-menu .vision .bodyy .g2 .g1 .vision-p #p2 .gold {
@@ -396,7 +389,7 @@ nav .nav-link ul li .contact::before {
 .body-menu .prestations .bodyyyy .prestaa {
   display: flex;
   flex-direction: column;
-  gap: 4vh;
+  gap: 6vh;
 }
 .body-menu .prestations .bodyyyy .prestaa .titre {
   margin: 0;
@@ -412,7 +405,7 @@ nav .nav-link ul li .contact::before {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 3vw;
+  gap: 5vw;
   align-items: center;
 }
 .body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire {
@@ -420,8 +413,9 @@ nav .nav-link ul li .contact::before {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 33vh;
-  width: 30vw;
+  height: 40vh;
+  width: 60vw;
+  border-radius: 2vw 2vw 0 2vw;
   transition: 0.3s;
 }
 .body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire:hover {
@@ -445,8 +439,9 @@ nav .nav-link ul li .contact::before {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 33vh;
-  width: 30vw;
+  height: 40vh;
+  width: 60vw;
+  border-radius: 2vw 2vw 0 2vw;
   transition: 0.3s;
 }
 .body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement:hover {
@@ -470,8 +465,9 @@ nav .nav-link ul li .contact::before {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 33vh;
-  width: 30vw;
+  height: 40vh;
+  width: 60vw;
+  border-radius: 2vw 2vw 0 2vw;
   transition: 0.3s;
 }
 .body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation:hover {
@@ -495,8 +491,9 @@ nav .nav-link ul li .contact::before {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 33vh;
-  width: 30vw;
+  height: 40vh;
+  width: 60vw;
+  border-radius: 2vw 2vw 0 2vw;
   transition: 0.3s;
 }
 .body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement:hover {
@@ -612,6 +609,73 @@ nav .nav-link ul li .contact::before {
   color: white;
 }
 
+.formula {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 7vh;
+}
+.formula .titre {
+  margin: 0;
+  padding: 0;
+  color: #5A7F54;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.formula .formula-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vw;
+  align-items: center;
+}
+.formula .formula-content .presta-formula {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 2vw;
+  font-size: 1.39vw;
+  background-color: rgba(34, 255, 0, 0.0784313725);
+  color: #5A7F54;
+  padding: 1vh 0vw;
+}
+.formula .formula-content .presta-formula ul.custom-list {
+  list-style: none;
+  padding-left: 0;
+}
+.formula .formula-content .presta-formula ul.custom-list li {
+  position: relative;
+  padding-top: 2vh;
+  padding-left: 3vw; /* Adjust this value based on your icon size */
+  text-align: left;
+  margin: 0 2vw;
+}
+.formula .formula-content .presta-formula ul.custom-list li::before {
+  padding-top: 2vh;
+  content: "\f00c"; /* FontAwesome 'check' icon unicode */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: green; /* You can change the color as needed */
+}
+.formula .formula-content .presta-formula p {
+  top: 0;
+  font-weight: bold;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: white;
+  background-color: #223121;
+  margin-top: -1vh;
+  border-radius: 2vw 2vw 0vw 0vw;
+  padding: 2vh 0vw;
+  text-align: center;
+}
+
 .title-singulier {
   color: #d1a839;
 }
@@ -620,7 +684,7 @@ nav .nav-link ul li .contact::before {
 }
 .title-singulier img {
   height: 13vw;
-  margin-top: -12vh;
+  margin-top: -11vh;
   margin-bottom: -4vw;
 }
 
@@ -807,6 +871,144 @@ body {
   font-style: normal;
 }
 
+/* Style du surnous */
+.denous {
+  color: #5A7F54;
+  text-align: center;
+}
+.denous p {
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  margin-top: 5vh;
+}
+
+.container-nous {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+  font-size: 1.39vw;
+  padding: 5vh 5vw;
+}
+.container-nous .section h2 {
+  color: #5A7F54;
+}
+.container-nous .section p {
+  line-height: 4.5vh;
+}
+
+/* Style du surnous */
+.prestation-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3vw;
+  align-items: center;
+}
+.prestation-content .funeraire {
+  background-image: url("image/ceremonie-fu.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.prestation-content .funeraire:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.prestation-content .funeraire p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.prestation-content .enterrement {
+  background-image: url("image/enterrement.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.prestation-content .enterrement:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.prestation-content .enterrement p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.prestation-content .organisation {
+  background-image: url("image/organisation.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.prestation-content .organisation:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.prestation-content .organisation p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+.prestation-content .accompagnement {
+  background-image: url("image/hand.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 33vh;
+  width: 30vw;
+  transition: 0.3s;
+}
+.prestation-content .accompagnement:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.prestation-content .accompagnement p {
+  color: white;
+  font-size: 1.37vw;
+  background-color: #5A7F54;
+  border-radius: 3vw 0 0 0;
+  padding: 1vh 1vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+
 /*Style du devis*/
 .form-container {
   display: flex;
@@ -878,6 +1080,7 @@ footer .bottom {
 }
 footer .bottom .one {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   background-color: #223121;
   padding: 2vh 3vw;
@@ -1004,7 +1207,7 @@ footer .sign {
     font-size: 4vw;
   }
   .fcontact .joignable {
-    padding-top: 1.3vh;
+    padding-top: 1vh;
     padding-bottom: 1vh;
   }
   .fcontact .phone-join {
@@ -1113,6 +1316,7 @@ footer .sign {
   .first-bg-image-home-computer-container .left #p2 {
     font-size: 4.7vw;
     width: 80vw;
+    line-height: 4vh;
   }
   .first-bg-image-home-computer-container .left #p2 .gold {
     font-weight: bold;
@@ -1130,7 +1334,7 @@ footer .sign {
   .div2 .div1 .right-mobile {
     width: 80vw;
     height: 30vh;
-    background-image: url("image/prestation.jpg");
+    background-image: url("image/pasteur-afro-american.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1230,7 +1434,7 @@ footer .sign {
     flex-direction: column;
     font-family: "Montserrat", sans-serif;
     color: white;
-    gap: 5vh;
+    gap: 0vh;
   }
   .body-menu .prestations .bodyyyy .prestaa {
     display: flex;
@@ -1247,27 +1451,10 @@ footer .sign {
     gap: 8vw;
     align-items: center;
   }
-  .body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire {
-    height: 25vh;
-    width: 85vw;
-  }
-  .body-menu .prestations .bodyyyy .prestaa .prestation-content .funeraire p {
-    font-size: 4vw;
-    border-radius: 5vw 0 0 0;
-    padding: 0.7vh 3vw;
-  }
-  .body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement {
-    height: 25vh;
-    width: 85vw;
-  }
-  .body-menu .prestations .bodyyyy .prestaa .prestation-content .enterrement p {
-    font-size: 4vw;
-    border-radius: 5vw 0 0 0;
-    padding: 0.7vh 3vw;
-  }
   .body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation {
     height: 25vh;
     width: 85vw;
+    border-radius: 0;
   }
   .body-menu .prestations .bodyyyy .prestaa .prestation-content .organisation p {
     font-size: 4vw;
@@ -1277,17 +1464,12 @@ footer .sign {
   .body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement {
     height: 25vh;
     width: 85vw;
+    border-radius: 0;
   }
   .body-menu .prestations .bodyyyy .prestaa .prestation-content .accompagnement p {
     font-size: 4vw;
     border-radius: 5vw 0 0 0;
     padding: 0.7vh 3vw;
-  }
-  .body-menu .prestations .bodyyyy .prestaa div a {
-    font-size: 3.5vw;
-    height: 4vh;
-    width: 25vw;
-    padding-top: 2vh;
   }
   .body-menu .prestations .bodyyyy .formula {
     display: flex;
@@ -1330,6 +1512,44 @@ footer .sign {
     height: 4vh;
     width: 25vw;
     padding-top: 2vh;
+  }
+  .formula {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  .formula .titre {
+    font-size: 5vw;
+  }
+  .formula .formula-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4vh;
+    align-items: center;
+  }
+  .formula .formula-content #sur {
+    margin: 0 5vw;
+  }
+  .formula .formula-content .presta-formula {
+    border-radius: 4vw;
+    font-size: 4vw;
+    padding: 1vh 0vw;
+  }
+  .formula .formula-content .presta-formula ul.custom-list li {
+    position: relative;
+    padding-top: 3vh;
+    padding-left: 5.5vw; /* Adjust this value based on your icon size */
+    margin: 0 4vw;
+  }
+  .formula .formula-content .presta-formula ul.custom-list li::before {
+    padding-top: 3vh;
+  }
+  .formula .formula-content .presta-formula p {
+    border-radius: 4vw 4vw 0vw 0vw;
+    padding: 2vh 6vw;
   }
   .aos-animate.center-to-outer {
     opacity: 1;
@@ -1398,6 +1618,21 @@ footer .sign {
     color: #d1a839;
   }
   /*syle de la page home*/
+  /* Style du surnous */
+  .denous p {
+    font-size: 4.5vw;
+    margin-top: 5vh;
+    margin-bottom: -2vh;
+  }
+  .container-nous {
+    gap: 4vh;
+    font-size: 4vw;
+    padding: 5vh 7vw;
+  }
+  .container-nous .section p {
+    line-height: 4.5vh;
+  }
+  /* Style du surnous */
   /*Style du footer*/
   footer {
     display: flex;
@@ -1676,6 +1911,18 @@ footer .sign {
   .body-menu .prestations .bodyyyy .formula div a {
     font-size: 2vw;
   }
+  .formula {
+    gap: 4vh;
+  }
+  .formula .titre {
+    font-size: 4vw;
+  }
+  .formula .formula-content {
+    gap: 4vh;
+  }
+  .formula .formula-content .presta-formula {
+    font-size: 2vw;
+  }
   .title-singulier p {
     font-size: 3vw;
   }
@@ -1683,6 +1930,15 @@ footer .sign {
     margin-top: -10vh;
   }
   /*syle de la page home*/
+  .denous p {
+    font-size: 2vw;
+  }
+  .container-nous {
+    font-size: 2vw;
+  }
+  .container-nous .section p {
+    line-height: 5.5vh;
+  }
   /*Style du footer*/
   footer {
     font-size: 2vw;

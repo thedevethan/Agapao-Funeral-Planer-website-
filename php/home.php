@@ -1,12 +1,7 @@
 <div class="fcontact">
     <p class="joignable">
         Être l’agence de référence des familles endeuillées, afin qu’elles vivent sereinement le temps de l’adieu. <br><br>
-        <b>Honorer la vie, alléger votre fardeau avec respect et dignité</b><br><br>
-        Pour avoir plus d'informations ou pour toutes questions veuillez nous contacter: <br>
-        <a href="mailto:agapaofuneral@gmail.com">agapaofuneral@gmail.com</a> ou au 07 18 62 32 66
-        <span>
-            <img class="phone-join" src="image/phone.png" alt="phone">
-        </span>
+        <b>Honorer la vie, alléger votre fardeau avec respect et dignité</b>
     </p>
 </div>
 
@@ -18,7 +13,7 @@
 
         <div class="left">
             <p id="p1" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out" data-aos-once="true">POURQUOI FAIRE APPEL À UNE AGENCE D'ACCOMPAGNEMENT FUNÉRAIRE?</p>
-            <p id="p2"  data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out" data-aos-once="true">
+            <p id="p2" data-aos="fade-up" data-aos-duration="1400" data-aos-easing="ease-out" data-aos-once="true" data-aos-anchor-placement="top-bottom">
                 Le rôle d'un Funeral Planner, est de vous <span class="gold">conseiller</span>, <span class="gold">soutenir</span> et <span class="gold">gérer</span> l'organisation de funérailles.
                 Main dans la main, avec les Pompes Funèbres et autres prestataires de votre choix, <span class="gold">AGAPAO Funeral Planner</span>
                 vous accompagne depuis l'annonce du décès jusqu'au jour des obsèques. L'objectif est de <span class="gold">décharger</span> les familles
@@ -28,7 +23,7 @@
 
         <div class="right" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
             <a href="php/savoir_plus.php" class="link hvr-bounce-to-top">En savoir plus Agapao</a>
-            <img src="image/prestation.jpg" alt="prestation" class="background-image2">
+            <img src="image/pasteur-afro-american.jpg" alt="prestation" class="background-image2">
         </div>
 
     </div>
@@ -157,16 +152,6 @@
                     Prestations
                 </p>
                 <div class="prestation-content">
-                    <div class="funeraire" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                        <p>
-                            Cérémonie funéraire
-                        </p>
-                    </div>
-                    <div class="enterrement" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                        <p>
-                            Enterrement
-                        </p>
-                    </div>
                     <div class="organisation" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                         <p>
                             Organisation, gestion et suivi des obsèques
@@ -174,12 +159,9 @@
                     </div>
                     <div class="accompagnement" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                         <p>
-                            Accompagnement avant - pendant - après
+                            Accompagnements des familles et planification
                         </p>
                     </div>
-                </div>
-                <div>
-                    <a href="#" class="link hvr-bounce-to-top">Voir plus</a>
                 </div>
 
             </div>
@@ -255,7 +237,7 @@
                 </div>
 
                 <div>
-                    <a href="#" class="link hvr-bounce-to-top">Voir plus</a>
+                    <a href="php/voir_formules.php" class="link hvr-bounce-to-top">Voir plus</a>
                 </div>
 
 

@@ -1,6 +1,6 @@
 <?php
 // Définir une fonction pour générer la barre de navigation
-function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuImg, $closeImg) {
+function generateNavbar($home, $apropos, $services, $event, $article, $galerie, $contact, $devis, $logo, $menuImg, $closeImg) {
     // Commencer à insérer du HTML
     ?>
     <div class="navbar">
@@ -10,12 +10,13 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuI
             <div class="nav-link">
                 <ul>
                     <!-- Générer les liens de navigation avec les paramètres passés à la fonction -->
-                    <li><a href="<?php echo $services; ?>">Qui sommes nous?</a></li>
-                    <li><a href="<?php echo $about; ?>">Prestations & Accompagnements</a></li>
-                    <li><a href="<?php echo $blog; ?>">Evènements</a></li>
-                    <li><a href="<?php echo $blog; ?>">Articles</a></li>
-                    <li><a href="<?php echo $blog; ?>">Galerie</a></li>
-                    <li><a href="<?php echo $contact; ?>">Nous contacter</a></li>
+                    <li><a href="<?php echo $apropos; ?>">A propos de nous</a></li>
+                    <li><a href="<?php echo $services; ?>">Nos Formules</a></li>
+                    <li><a href="<?php echo $event; ?>">Evènements</a></li>
+                    <li><a href="<?php echo $article; ?>">Articles</a></li>
+                    <li><a href="<?php echo $galerie; ?>">Galerie</a></li>
+                    <li><a href="<?php echo $contact; ?>">Contacts</a></li>
+                    <li><a href="<?php echo $devis; ?>">Devis</a></li>
                 </ul>
             </div>
 
@@ -25,12 +26,13 @@ function generateNavbar($home, $services, $about, $blog, $contact, $logo, $menuI
         <div class="nav-link-mobile">
             <ul>
                 <!-- Générer les liens de navigation mobile avec les mêmes paramètres -->
-                <li><a href="<?php echo $services; ?>">Qui sommes nous?</a></li>
-                    <li><a href="<?php echo $about; ?>">Prestations & Accompagnements</a></li>
-                    <li><a href="<?php echo $blog; ?>">Evènements</a></li>
-                    <li><a href="<?php echo $blog; ?>">Articles</a></li>
-                    <li><a href="<?php echo $blog; ?>">Galerie</a></li>
-                    <li><a href="<?php echo $contact; ?>">Nous contacter</a></li>
+                <li><a href="<?php echo $apropos; ?>">A propos de nous</a></li>
+                    <li><a href="<?php echo $services; ?>">Nos Formules</a></li>
+                    <li><a href="<?php echo $event; ?>">Evènements</a></li>
+                    <li><a href="<?php echo $article; ?>">Articles</a></li>
+                    <li><a href="<?php echo $galerie; ?>">Galerie</a></li>
+                    <li><a href="<?php echo $contact; ?>">Contacts</a></li>
+                    <li><a href="<?php echo $devis; ?>">Devis</a></li>
             </ul>
         </div>
     </div>

@@ -7,16 +7,16 @@ hd("", "image/Agapao - logo-icon-modified.png");
     
     <?php 
     require("php/navbar.php");
-    generateNavbar("index.php", "#", "#", "#", "php/devis.php", "image/Agapao - logo.png", "image/menu.png", "image/close.png");
+    generateNavbar("index.php", "#", "#", "php/voir_formules.php", "#", "#", "#foot", "php/devis.php", "image/Agapao - logo.png", "image/menu.png", "image/close.png");
 
     require("php/home.php");
     ?>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br>
 
     <?php 
     require("php/animation_visible.php");
     require("php/footer.php");
-    generateFooter("");
+    generateFooter("", "#", "#", "#", "#", "#", "#foot", "php/devis.php");
     ?>
 </body>
 </html>

@@ -1,7 +1,8 @@
 <?php
-function generateFooter($baseDir) {
-    ?>
-    <footer>
+function generateFooter($baseDir, $apropos, $services, $event, $article, $galerie, $contact, $devis)
+{
+?>
+    <footer id="foot">
         <div class="top">
             <img src="<?php echo $baseDir; ?>image/Agapao - logo-white.png" alt="logo">
         </div>
@@ -9,7 +10,7 @@ function generateFooter($baseDir) {
             <div class="one">
                 <div>
                     <img src="<?php echo $baseDir; ?>image/call.png" alt="call">
-                    <p>(+225) 07 18 62 32 66</p>
+                    <p><a href="tel:+2250718623266" style="color: white;">(+225) 07 18 62 32 66</a></p>
                 </div>
                 <div>
                     <img src="<?php echo $baseDir; ?>image/email.png" alt="email">
@@ -23,12 +24,14 @@ function generateFooter($baseDir) {
             <div class="two">
                 <p>MENU</p>
                 <div class="link">
-                    <a href="#">Qui sommes nous?</a>
-                    <a href="#">Prestations & accompagnements</a>
-                    <a href="#">Evènements</a>
-                    <a href="#">Articles</a>
-                    <a href="#">Galerie</a>
-                    <a href="#">Nous contacter</a>
+                    <a href="<?php echo $apropos; ?>">A propos de nous</a>
+                    <a href="<?php echo $services; ?>">Nos Formules</a>
+                    <a href="<?php echo $event; ?>">Evènements</a>
+                    <a href="<?php echo $article; ?>">Articles</a>
+                    <a href="<?php echo $galerie; ?>">Galerie</a>
+                    <a href="<?php echo $contact; ?>">Contacts</a>
+                    <a href="<?php echo $devis; ?>">Devis</a>
+
                 </div>
             </div>
             <div class="three">
@@ -43,9 +46,10 @@ function generateFooter($baseDir) {
         <hr>
         <div class="sign">
             <p>&copy; 2024 Agapao Funeral Planner - Tous droits réservés</p>
-            <p>Conçu par <b>Ethan Bokamé</b></p>
+            <p>Conçu par <b><a href="mailto:adresse@example.com" style="color: white;">Ethan Bokamé</a>
+                </b></p>
         </div>
     </footer>
-    <?php
+<?php
 }
 ?>
