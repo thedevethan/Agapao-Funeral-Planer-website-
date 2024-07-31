@@ -1,7 +1,16 @@
 <?php
 
+
+
 function hd($css_file, $icon)
 {
+
+    // Définir le fuseau horaire (facultatif)
+    date_default_timezone_set('Europe/Paris');
+
+    // Obtenir la date et l'heure actuelles
+    $current_date_time = date('Ymd_His');
+
 ?>
     <!DOCTYPE html>
     <html lang="fr">
@@ -14,7 +23,7 @@ function hd($css_file, $icon)
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--Style-->
-        <link rel="stylesheet" href="<?php echo $css_file . "style.css" . '?v=' . filemtime($css_file); ?>" >
+        <link rel="stylesheet" href="<?php echo $css_file . "style.css" . '?v=' . $current_date_time; ?>">
         <link rel="icon" href="<?php echo $icon; ?>">
 
         <!--Font-->
@@ -41,7 +50,6 @@ function hd($css_file, $icon)
 
         <!--Fontawesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 
         <!--Title-->
         <title>Agapao-Funeral-Planer</title>
